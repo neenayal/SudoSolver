@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#e6e6e6">
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="10dp"  android:gravity="top|center_horizontal"  >
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Enter the numbers of the sudoku via buttons.Then use the Solve buttons to solve puzzle." />
+    
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center"
+    android:background="@drawable/darkshape">
+         
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR1C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> 
+        <requestFocus />  </EditText>
+        <EditText android:id="@+id/editTextR1C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR1C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR2C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR2C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR3C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR3C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR4C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f">  </EditText>
+        <EditText android:id="@+id/editTextR4C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR4C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR5C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR5C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR6C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR6C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR7C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR7C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR8C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+        <EditText android:id="@+id/editTextR8C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal" android:textColor="#0f0f0f"> </EditText>
+   	</LinearLayout>
+   	
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" >
+        <EditText android:id="@+id/editTextR9C1" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C2" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C3" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C4" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C5" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C6" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/lightshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C7" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C8" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+        <EditText android:id="@+id/editTextR9C9" android:singleLine="true" android:layout_width="35dp" android:layout_height="wrap_content" android:maxLength="1" android:inputType="number" android:background="@drawable/darkshape" android:gravity="center_vertical|center_horizontal"> </EditText>
+     </LinearLayout>
+       
+    </LinearLayout>
+    
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:padding="2dp"  android:gravity="bottom|center_horizontal"  >
+    <Button android:id="@+id/oneBtn" android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="1"  android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/twoBtn" android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="2"  android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/threeBtn" android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="3" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/fourBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="4" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/fiveBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="5" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/sixBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="6" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/sevenBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="7" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/eightBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="8" android:background="@drawable/numbershape"/>
+    <Button android:id="@+id/nineBtn"  android:onClick="numberPressed" android:layout_width="33dip" android:layout_height="wrap_content" android:text="9" android:background="@drawable/numbershape"/>
+    </LinearLayout>
+        
+    <Button
+    android:id="@+id/solveBtn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:text="@string/button_solve" 
+    android:background="@drawable/solveshape"
+    android:layout_centerHorizontal="true"
+    android:onClick="doSolve" />
+    
+</LinearLayout>
